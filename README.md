@@ -6,8 +6,8 @@ The systems of equations to be solve are:
 ## Bistable Switch
 
 \begin{align}
-\dot{u} & = \frac{\alpha_1}{1+v^{\beta}} \\
-\dot{v} & = \frac{\alpha_2}{1+u^{\gamma}-v} \\
+$$\dot{u} & = \frac{\alpha_1}{1+v^{\beta}} \\$$
+$$\dot{v} & = \frac{\alpha_2}{1+u^{\gamma}-v} \\$$
 \end{align}
 
 ## Lotka-Volterra
