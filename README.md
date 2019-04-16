@@ -3,7 +3,7 @@ This repo solves the stochastic simple decay, bistable switch and Lotka-Volterra
 
 The systems of equations to be solve are:
 
-$$\int_\Omega \nabla u \cdot \nabla v~dx = \int_\Omega fv~dx$$
+![1st_equation](https://latex.codecogs.com/gif.latex?%24%24%5Cint_%5COmega%20%5Cnabla%20u%20%5Ccdot%20%5Cnabla%20v%7Edx%20%3D%20%5Cint_%5COmega%20fv%7Edx%24%24)
 
 ## Bistable Switch
 
@@ -11,8 +11,6 @@ $$\int_\Omega \nabla u \cdot \nabla v~dx = \int_\Omega fv~dx$$
 
 ## Lotka-Volterra
 
-\begin{align}
-\dot{x} & = \alpha x - \beta xy \\
-\dot{y} & = \delta xy -\gamma y \\
-\end{align}
+![lotka-volterra_equation](http://latex.codecogs.com/gif.latex?%5Cdot%7Bx%7D%20%3D%20%5Calpha%20x%20-%20%5Cbeta%20xy%20%5C%5C%20%5Cdot%7By%7D%20%3D%20%5Cdelta%20xy%20-%5Cgamma%20y%20%5C%5C)
+
 
