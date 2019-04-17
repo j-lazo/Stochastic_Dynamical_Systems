@@ -1,9 +1,15 @@
 # Stochastic Dynamical Systems
-This repo solves the stochastic simple decay, bistable switch and Lotka-Volterra systems using Guillespie Stochastic Algorithm.
+This repo containst the code to solve the stochastic simple decay, bistable switch and Lotka-Volterra systems using Guillespie Stochastic Algorithm.
 
 The systems of equations to be solve are:
 
-![1st_equation](https://latex.codecogs.com/gif.latex?%24%24%5Cint_%5COmega%20%5Cnabla%20u%20%5Ccdot%20%5Cnabla%20v%7Edx%20%3D%20%5Cint_%5COmega%20fv%7Edx%24%24)
+## Simple Decay
+
+![Simple_deacay](http://latex2png.com/output//latex_9b755633c2fe9094d3ed42df493d6173.png)
+
+![Result_Sdecay](https://github.com/j-lazo/Stochastic_Dynamical_Systems/blob/master/Images/simpledecay.png "c=0.5 x(0)=100")
+
+
 
 ## Bistable Switch
 
