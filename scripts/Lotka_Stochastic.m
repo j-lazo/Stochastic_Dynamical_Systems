@@ -86,7 +86,7 @@ pos = get(gcf, 'Position'); %// gives x left, y bottom, width, height
 equis = pos(3);
 ye = pos(4);
 htext=text(equis/2,ye/2,sprintf('\\alpha= %0.1g , \n \\gamma= %0.1g , \n \\delta= %0.1g, \n x_0= %0.1g \n y_0= %0.1g',alpha ,beta,gamma,delta,x0,y0),'FontSize',16);
-dir1='/home/jl/MI_BIBLIOTECA/Escuela/Lund/II/Systems Biology/P2/lotkavolterratimegraph';
+dir1=strcat(pwd,'/results/','lotkavolterratimegraph');
 save=strcat(dir1,num2str(y0),num2str(x0),'.png');  
 saveas(figure(1),save);
 
@@ -103,7 +103,7 @@ equis = pos1(3)
 ye = pos1(4)
 pos1
 htext=text(750,900,sprintf('\\alpha= %0.1g , \n \\gamma= %0.1g , \n \\delta= %0.1g, \n x_0= %0.1g \n y_0= %0.1g',alpha ,beta,gamma,delta,x0,y0),'FontSize',16);
-dir2='/home/jl/MI_BIBLIOTECA/Escuela/Lund/II/Systems Biology/P2/lotkavolterrayyvsx';
+dir2=strcat(pwd,'/results/','lotkavolterrayyvsx');
 %save=strcat(dir2,num2str(y0),num2str(x0),'.png');    
 %saveas(figure(2),save);
 end

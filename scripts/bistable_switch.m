@@ -79,4 +79,3 @@ xlabel('time');
 ylabel('X(t)');
 title('Simple Decay example');
 legend('U','V')
-%saveas(figure(1),'/home/jl/MI_BIBLIOTECA/Escuela/Lund/II/Systems Biology/P2/untitled61.png');

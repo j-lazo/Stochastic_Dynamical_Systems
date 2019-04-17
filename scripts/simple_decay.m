@@ -50,7 +50,8 @@ xlabel('time');
 ylabel('X(t)');
 title('Simple Decay example');
 legend('Gillespies Simulation','Deterministic')
-saveas(figure(1),'/home/jl/MI_BIBLIOTECA/Escuela/Lund/II/Systems Biology/P2/figure1.png');
+
+saveas(figure(1),strcat(pwd,'/results/','figure1.png'));
 saveas(figure(nr),save);
 
 

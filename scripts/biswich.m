@@ -32,7 +32,8 @@ ylabel('Expression');
 title('Bistable Switch');
 legend('u','v')
 %htext=text(15,120,sprintf('\\alpha_0= %0.1g , \n \\alpha= %0.1g , \n \\beta= %0.1g, \n n= %0.1g',alpha0 ,alpha,beta,n ),'FontSize',16);
-saveas(figure(1),'/home/jl/MI_BIBLIOTECA/Escuela/Lund/II/Systems Biology/P2/biswitchvv1u6.png');
+name_image = 'biswitchvv1u6.png'
+saveas(figure(1),strcat(pwd,'/results/',name_image));
 
 
 function salida=aux_pfinal(t,x);
